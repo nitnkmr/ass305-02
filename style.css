@@ -1,0 +1,88 @@
+*{
+    padding: 0;margin: 0;
+}
+.container{
+    height: 60vh;
+    width: 20vw;
+    border: 2px solid black;
+    justify-self: center;
+    margin: auto;
+    border-radius: 12px;
+    
+}
+.btn{
+    height: 80%;
+    width: 96%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ 
+   
+}
+.equals{
+  
+    height: 20%;
+    width: 22%;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: rgb(68, 224, 226);
+    border-radius: 10px 20px;
+    box-shadow: 2px 2px 8px black;
+
+
+}
+.symbols{
+  
+    height: 20%;
+    width: 22%;
+    font-size: 20px;
+    color: rgb(19, 18, 17);
+    background-color: rgb(227, 243, 55);
+    border-radius: 10px 20px;
+    box-shadow: 2px 2px 8px black;
+
+
+}
+button{
+    height: 20%;
+    width: 22%;
+    font-size: 20px;
+    color: antiquewhite;
+    background-color: blue;
+    border-radius: 10px 20px;
+    box-shadow: 2px 2px 8px black;
+}
+.display{
+    display:flex;
+    margin: 5px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    border-radius: 10px 20px;
+    color:grey
+    
+    
+
+}
+.display div{
+    text-align: center;
+    display: flex;
+    width: 95%;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 8px black;
+    padding: 5px;
+}
+.display button{
+    height: 53px;
+    margin:0 5px;
+    
+}
+h1{
+    text-align: center;
+    margin: 5%;
+}
